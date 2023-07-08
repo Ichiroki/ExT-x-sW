@@ -1,0 +1,13 @@
+@tailwind base;
+
+@layer base {
+   .banner {
+      background: #444 url('../img/banner.jpg');
+      background-blend-mode: multiply;
+      background-size: cover;
+      background-attachment: fixed;
+   }
+}
+
+@tailwind components;
+@tailwind utilities;
