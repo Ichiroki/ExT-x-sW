@@ -5,6 +5,9 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="../css/style.css">
 
+   <!-- Bootstrap Icons -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
    <!-- Animated on Scroll -->
    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
    <title>ExT x sW</title>
@@ -12,22 +15,133 @@
 <body>
 
    <!-- Banner -->
-   <div class="banner h-screen sm:h-screen w-full flex flex-col lg:flex-row items-center pt-8 text-white">
+   <div class="banner w-full flex flex-col lg:flex-row lg:h-screen items-center pt-8 text-white">
       <div class="flex items-center lg:w-1/2 lg:justify-center">
-         <img src="../img/ExTxsW.png" alt="" width="350">
+         <img src="../img/ExTxsW.png" alt="" width="350" data-aos="fade-down" data-aos-offset="200" data-aos-duration="1000" data-aos-easing="ease-in-out">
       </div>
-      <div class="px-8 pt-12 md:pt-28 lg:pt-0 lg:w-1/2">
+      <div class="px-8 pt-9 md:pt-28 lg:pt-0 lg:w-1/2">
          <h1 class="text-4xl md:text-5xl">Lorem, ipsum dolor.</h1>
          <p class="mt-9 text-lg md:text-xl">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, veritatis delectus illo tempore eveniet quibusdam eius quos blanditiis natus facilis aliquam in nobis similique. Tempore exercitationem minima eos repellat qui. Doloremque voluptas perferendis natus asperiores laudantium ut corrupti consequatur dignissimos, saepe alias dolor, et in? Optio et commodi laudantium doloremque pariatur ullam reiciendis fuga? Explicabo sequi perferendis porro odit aliquid nemo voluptatum iste quae architecto.</p>
-         <a href="#" class="block border-4 rounded-lg px-6 py-5 mt-9 md:mt-24 text-center text-2xl transition hover:border-slate-900 hover:bg-slate-50 hover:text-slate-900 hover:ring-2 hover:ring-slate-500 focus:bg-slate-600 focus:text-slate-300 focus:ring-4 lg:rounded-full">Lorem</a>
+         <a href="#" class="block w-8/12 border-4 rounded-lg px-4 py-4 my-4 md:mt-24 text-center text-2xl transition hover:border-slate-900 hover:bg-slate-50 hover:text-slate-900 hover:ring-2 hover:ring-slate-500 focus:bg-slate-600 focus:text-slate-300 focus:ring-4 lg:rounded-full">Lorem</a>
       </div>
    </div>
+
+   <!-- Section 2 -->
+   <section class="sec-2 bg-slate-900 w-full lg:flex lg:justify-around lg:h-screen">
+      <div class="lg:flex lg:flex-col lg:justify-center lg:items-center" data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-in-out">
+         <h1 class="text-white text-3xl text-center pt-12">Our Community's Montage</h1>
+         <iframe class="py-8 w-96 h-80 block mx-auto rounded-xl" src="https://www.youtube.com/embed/V36yxzdrf7k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <div class="lg:flex lg:flex-col lg:justify-center lg:items-center" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-out">
+         <h1 class="text-white text-3xl text-center pt-12">And Also our best's player</h1>
+         <iframe class="py-8 w-96 h-80 block mx-auto rounded-xl" src="https://www.youtube.com/embed/J2PBRzCIULo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+   </section>
+
+
+   <!-- after:content-[''] after:w-full after:h-1 after:bg-zinc-400 after:block after:absolute -->
+
+   <!-- Section 3 -->
+   <section class="sec-3 bg-zinc-950 flex flex-col w-full lg:h-screen">
+      <h1 class="text-white text-5xl text-center relative pt-12">Member List</h1>
+      <ul class="text-white flex flex-col items-center justify-center py-12">
+         <li class="text-4xl font-bold">Founding Father</li>
+         <li class="text-xl">Sparcon</li>
+         <li class="text-xl">AzmiKun</li>
+      </ul>
+      <div class="md:flex flex-row items-start justify-center gap-4 lg:justify-around">
+         <ul class="text-white flex flex-col items-center justify-center py-12">
+            <li class="text-4xl font-bold">Ruler</li>
+            <li class="text-xl">TRanYon</li>
+            <li class="text-xl">Ichiroki</li>
+            <li class="text-xl">Equinnox.</li>
+            <li class="text-xl">mythicalimmortal</li>
+         </ul>
+         <ul class="text-white flex flex-col items-center justify-center py-12">
+            <li class="text-4xl font-bold">Commander</li>
+            <li class="text-xl">evg.</li>
+            <li class="text-xl">gilangvlntn</li>
+            <li class="text-xl">yudayana</li>
+            <li class="text-xl">alip2004</li>
+            <li class="text-xl">efrierung</li>
+            <li class="text-xl">rxelz</li>
+         </ul>
+      </div>
+   </section>
+
+   <!-- Section 4 -->
+   <section class="sec-4 bg-slate-900 w-full h-screen">
+      <h1 class="text-white text-5xl text-center relative pt-12">Memento</h1>
+      <div class="container mx-auto px-5 py-2 lg:px-32 lg:pt-24">
+         <div class="-m-1 flex flex-wrap md:-m-2">
+           <div class="flex w-1/2 flex-wrap">
+             <div class="w-1/2 p-1 md:p-2">
+               <img
+                 alt="gallery"
+                 class="block h-full w-full rounded-lg object-cover object-center"
+                 src="../img/mirai-10.jpg" />
+             </div>
+             <div class="w-1/2 p-1 md:p-2">
+               <img
+                 alt="gallery"
+                 class="block h-full w-full rounded-lg object-cover object-center"
+                 src="../img/mirai-15.jpg" />
+             </div>
+             <div class="w-full p-1 md:p-2">
+               <img
+                 alt="gallery"
+                 class="block h-full w-full rounded-lg object-cover object-center"
+                 src="../img/mirai2.jpg" />
+             </div>
+           </div>
+           <div class="flex w-1/2 flex-wrap">
+             <div class="w-full p-1 md:p-2">
+               <img
+                 alt="gallery"
+                 class="block h-full w-full rounded-lg object-cover object-center"
+                 src="../img/mirai6.jpg" />
+             </div>
+             <div class="w-1/2 p-1 md:p-2">
+               <img
+                 alt="gallery"
+                 class="block h-full w-full rounded-lg object-cover object-center"
+                 src="../img/mirai-19.jpg" />
+             </div>
+             <div class="w-1/2 p-1 md:p-2">
+               <img
+                 alt="gallery"
+                 class="block h-full w-full rounded-lg object-cover object-center"
+                 src="../img/mirai-18.jpg" />
+             </div>
+           </div>
+         </div>
+       </div>
+   </section>
+
+   <!-- Section 5 -->
+   <section class="sec-5 banner h-screen text-white flex flex-col items-center justify-center">
+      <h1 class="text-5xl text-center relative pt-12">Social Media</h1>
+      <p class=" text-2xl text-center pt-12">Follow us on :</p>
+      <ul class="flex items-center justify-center gap-7">
+         <li>
+            <a href="" class="block text-3xl border-2 px-12 py-3 mt-12 rounded-xl transition hover:text-zinc-900 hover:bg-zinc-50 hover:ring-4">
+               <i class="bi bi-tiktok"></i>
+            </a>
+         </li>
+         <li>
+            <a href="" class="block text-3xl border-2 px-12 py-3 mt-12 rounded-xl transition hover:text-zinc-900 hover:bg-zinc-50 hover:ring-4">
+               <i class="bi bi-discord"></i>
+            </a>
+         </li>
+      </ul>
+   </section>
+
+   <!-- Footer -->
+   <footer class="bg-zinc-900 text-white text-xl text-center py-3">&copy;2023 Exterminators x Secret Weapon, made with <i class="bi bi-heart-fill text-pink-600"></i> by Ichiroki</footer>
 
    <!-- Animated on Scroll -->
    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
    <script>
-     AOS.init();
-
      AOS.init({
       // Global settings:
       disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
@@ -48,7 +162,6 @@
       once: false, // whether animation should happen only once - while scrolling down
       mirror: false, // whether elements should animate out while scrolling past them
       anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
-
       });
    </script>
 </body>
