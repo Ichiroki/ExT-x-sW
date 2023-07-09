@@ -1125,6 +1125,11 @@ video {
     height: 100vh;
   }
 
+  .lg\:h-fit{
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+
   .lg\:w-1\/2{
     width: 50%;
   }
